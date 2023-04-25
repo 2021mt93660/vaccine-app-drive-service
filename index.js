@@ -31,6 +31,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 //Routes
-app.use("/api/v1/vaccineDrive/", vaccineRoute);
+app.use("/vaccineDrive/", vaccineRoute);
 
 app.listen(PORT, () => console.log(`server is running at ${PORT} port!!`));
